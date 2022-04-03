@@ -1,0 +1,42 @@
+.allOrderList {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .orderContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .order_item {
+    border: 1px solid black;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  
+  .admin_order_content p {
+    line-height: 1;
+    margin: 2px;
+  }
+  
+  .admin_order_content h4 {
+    line-height: 1;
+    margin: 2px;
+  }
+  
+  .admin_order_content {
+    width: 70%;
+  }
+  
+  .admin_order_activity {
+    height: max-content;
+    margin-left: auto;
+  }
+  .admin_order_activity button {
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding:4px 10px;
+  }
+  

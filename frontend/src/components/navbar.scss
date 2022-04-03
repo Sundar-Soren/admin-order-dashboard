@@ -1,0 +1,26 @@
+.navbar{
+    height: 3rem;
+    position: sticky;
+    border-bottom: 1px solid black;
+    top: 0;
+    background-color: white;
+    .navbar_container{
+        width: 90%;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        align-items: center;
+        button{
+            height: max-content;
+            padding: 6px 1rem;
+            font-size: 1.1rem;
+            background-color: #4242e6;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    }
+}
