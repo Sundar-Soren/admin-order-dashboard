@@ -2,7 +2,7 @@ const Order = require("../models/orderModel");
 
 exports.getAllOrders = async (req, res) => {
   try {
-    const orders = await Order.find();
+    const orders = await Order.find().sort({ createdAt: -1 });
 
     return res.status(200).json({
       orders,
